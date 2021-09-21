@@ -1,0 +1,47 @@
+.Restaurants{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.RightImages{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.RightImages img{
+    width: 384px;
+    aspect-ratio: auto 384 / 489;
+    height: 489px;
+}
+.LeftText{
+    width:400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#img4{
+    padding-top: 10%;
+    margin-left: -5%;
+}
+
+.app1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media only screen and (max-width:750px) {
+    .Restaurants{
+        flex-direction: column;
+        align-items: center;
+    }
+    .RightImages{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    #img4{
+        margin:0%;
+    }
+}

@@ -1,0 +1,119 @@
+  
+.Footer{
+    background-color: black;
+     
+}
+.Footer1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: black;
+    text-align: left;
+    font-size : 17px;
+  
+}
+
+.Footer a{
+    text-decoration: none;
+    color:white;
+     font-weight: 300;
+}
+
+.app2{
+    display: flex;
+    flex-direction: column-reverse ;
+    justify-content: flex-end;
+    margin-top: 70px;
+}
+
+.app2 img{
+    border : 1px solid white;
+    border-radius: 10px;
+    margin-top: 25px;
+    
+}
+.app2 img:hover{
+    transform: scale(1.07);
+    -webkit-transition :  0.5s ease-in-out;
+}
+.listhead{
+    color:gray;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 70px;
+    padding: 10px 0px;
+}
+.listtext a:hover{
+   font-weight: 600 ;
+}
+.List{
+    min-width: 200px;
+}
+.Footer2 div:nth-child(n+2):nth-child(-n+4){
+    margin-top: 40px;
+} 
+.Footer2{
+    border-top: 1px solid #4d4d4d;
+    border-bottom: 1px solid #4d4d4d;
+}
+.Copyright{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-height: 75px;
+    flex-wrap: wrap;
+    margin-left: -40px;
+    align-items: center;
+    margin-top:10px;
+}
+.svg2{
+    fill:white;
+    max-height: 75px;
+}
+.Copyright p{
+    color:white;
+    font-size:20px;
+}
+.socialmedia{
+     
+    width:200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+.socialmedia img:hover{
+    transform: scale(1.1);
+    -webkit-transition :  0.5s ease-in-out;
+}
+
+@media only screen and (max-width:800px){
+     
+    .Copyright{
+        flex-wrap: wrap;
+    }
+    .app2{
+        
+        margin-left:-15px;
+    }
+     
+    .Copyright{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .socialmedia{
+        width:150px;    
+    }
+    .Footer1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .listhead{
+        margin-top: 0;
+    }
+    .List{
+        min-width:150px;
+    }
+}

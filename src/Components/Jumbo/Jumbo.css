@@ -1,0 +1,148 @@
+.Jumbo{
+    display:flex;
+    justify-content:flex-end;
+    height: 580px;
+}
+ 
+.LeftJumbo{
+   width: 42%;
+   position:relative;
+   left:9%;
+   right:4%;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+}
+@media only screen and (max-width:1000px) {
+    .RightJumbo{
+        display: none;
+    }
+    .Jumbo{
+        justify-content: center;
+    }
+    .LeftJumbo{
+        position: static;
+        width: 90%;
+        left: 0;
+        right:0;       
+    }
+    input{
+        width:10em;
+    }
+  
+}
+@media only screen and (max-width:750px) {
+    .RightJumbo{
+        display: none;
+    }
+    .Jumbo{
+        justify-content: center;
+    }
+    .LeftJumbo{
+        position: static;
+        width: 90%;
+        left: 0;
+        right:0;       
+    }
+    input{
+        max-width:15em;
+        padding:10px;
+    }
+    .Navbar:nth-child(2){
+        margin-left:-20px;
+    }
+  
+}
+
+.RightJumbo{
+    margin-bottom: -25px;
+    width:45%;
+    margin-left: auto;   
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    margin-bottom: 40px;
+}
+
+.NButtons{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.svg {
+    fill:#fc8019;
+}
+
+#bt2{
+    background-color:black;
+    color:white;
+    padding: 10px 28px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#bt1{
+    padding: 10px 28px;
+    font-weight: 600;
+    cursor: pointer;
+}
+input{
+    
+    width: 25em;
+    padding:20px;
+    float:left;
+    font-size: 18px;
+    font-weight: 500;
+}
+.formspan{
+   
+    background-color: #fc8019;
+    color: white;
+    padding:23px;
+    float:right;
+    font-size: 16px;
+    font-weight: 600; 
+    min-width: 88px;
+}
+.Form{
+    display:flex;
+    align-items: center;
+}
+.Heading{
+    text-align: left;
+    color: #282c3f;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: -15px;
+}
+.Heading p{
+    font-size: 24px;
+    font-weight: 200;
+    color: #686b78;  
+}
+
+.Cities{
+    text-align: left;
+    margin-top:15px;
+}
+.Cities p{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+    color: #a9abb2;
+}
+.Cities a{
+    text-decoration: none;
+    font-size:16px;
+    font-weight: 600;
+}
+.Cities a:nth-child(2n){
+    color:#93959f;
+}
+.Cities a:nth-child(2n+1){
+    color:#686b78;
+}

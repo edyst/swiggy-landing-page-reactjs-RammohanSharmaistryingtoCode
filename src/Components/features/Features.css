@@ -1,0 +1,28 @@
+.Features{
+    background-color: #2b1e16;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h2{
+    padding-top: 30px;
+    color:white;
+    display: inline;
+    font-size:20px;
+    margin-bottom: -10px;
+    font-weight: 600;
+}
+h4{
+    color:#e0cbc1;
+    display: inline;
+    font-size: 15px;
+    width: 280px;
+    font-weight: 300;
+    padding-bottom: 80px;
+}
+@media only screen and (max-width:750px) {
+    .Features{
+        flex-direction: column;
+        align-content:center ;
+    }
+}
